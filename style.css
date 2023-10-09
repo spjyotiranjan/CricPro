@@ -1,1 +1,140 @@
 /* Type your code here */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 65%;
+    background-position: right bottom;
+    font-family: 'Roboto', sans-serif;
+}
+#logo{
+    width: 95vw;
+    display: flex;
+    justify-content: flex-end;
+    margin: 30px;
+
+}
+#logo img{
+    mix-blend-mode: multiply;
+}
+#text{
+    margin-left: 100px;
+    margin-top: -20px;
+}
+.footer{
+    margin-left: 100px;
+}
+table,tr,td{
+    padding-left: 10px;
+    
+}
+table{
+    margin-left: 100px;
+    width: 57vw;
+    background-color: white;
+    border-collapse: collapse;
+    box-shadow: -1px 3px 7px #d7d7d7;
+    margin-bottom: 50px;
+}
+tr{
+    height: 40px;
+}
+#first{
+    background-color: #F05033;
+    color: white;
+    font-weight: bold;
+}
+.sr{
+    text-align: right;
+    width: 40px;
+    padding-right: 10px;
+}
+#second{
+    font-weight: bold;
+}
+#text{
+    margin-bottom: 30px;
+}
+#text>h3{
+    color: #696969;
+    font-size: 22px;
+}
+#text>h1{
+    font-size: 45px;
+    text-shadow: 0px 2px 2px #696969;
+}
+.col1,.col2>span{
+    cursor: pointer;
+}
+.col2{
+    color: #696969;
+}
+tr:nth-child(n+3){
+    border-top: 1px solid #696969;
+}
+.col1,.col2:last-child{
+    color: #569fff;
+}
+.left{
+    position: absolute;
+    left: 80px;
+    display: none;
+}
+#sehwag{
+    top: 300px;
+    /* display: block; */
+}
+#sachin{
+    top: 340px;
+}
+#gambhir{
+    top: 380px;
+}
+#kohli{
+    top: 420px;
+}
+#dhoni{
+    top: 460px;
+}
+#yuvraj{
+    top: 500px;
+}
+.top{
+    position: absolute;
+    top: 630px;
+    display: none;
+    
+}
+#raina{
+    left: 300px;
+}
+#harbhajan{
+    left: 400px;
+}
+#zaheer{
+    left: 500px;
+}
+#munaf{
+    left: 600px;
+}
+#sreesanth{
+    left: 700px;
+}
+/* .display-block{
+    display: block;
+}
+.display-none{
+    display: none;
+} */
+.col1:hover{
+    font-weight: bold;
+}
+.col2>span:hover{
+    font-weight: bold;
+}
+
